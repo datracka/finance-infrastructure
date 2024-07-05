@@ -25,10 +25,21 @@ To get the external IP
 
 To clean up everything
 
-run `cleanup_script.sh`
+run `cleanup_script.sh` (I don" remembe exactly what is doing...)
+
+or 
+
+    ```shell
+    kubectl delete ingress --all
+    kubectl delete service --all
+    kubectl delete deployment --all
+    kubectl delete statefulset --all
+    kubectl delete daemonset --all
+    kubectl delete pod --all
+    ```
 
 
-### EKS Management using eksctl
+## EKS Management using eksctl
 
 - Create a cluster
 
