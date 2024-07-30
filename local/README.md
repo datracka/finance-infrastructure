@@ -2,9 +2,18 @@
 
 Steps to provision architecture in K8S locally
 
+## What is all about
+
+Ingress is acting as kind of reverse proxy.
+
+- It handles /api requests directly to the backend (java app) where are processed.
+- Other pahts (not /api) will be handled by the nginx
+
+This is a common scenario to split FE and BE in a web app
+
 ## Add a service
 
-- run `kubectl apply -f service.yml` in local folder
+- run `kubectl apply -f service.yml` in local folder.
 
 To check the service `kubectl get service api-service`
 
@@ -37,9 +46,3 @@ You can check the pods provisioned in your namespace with `kubectl get pods --al
 ## update the etc/host to point
 
 127.0.0.1   finance-api.local
-
-## What is all about
-
-Ingress is acting as kind of reverse proxy.
-
-it handles /api requests directly to the backend (java app) where are processed.

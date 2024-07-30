@@ -15,4 +15,4 @@ spec:
               service:
                 name: api-service
                 port:
-                  number: 80  # This should match the port in the Service
+                  number: 8080 # This should match the port in the Service
