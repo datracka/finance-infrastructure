@@ -1,6 +1,6 @@
 # CLOUD AWS
 
-Using managed AWS EKS
+Using managed AWS EKS (deprecated)
 
 ## Steps 
 
