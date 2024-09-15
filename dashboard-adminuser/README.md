@@ -1,4 +1,4 @@
-# Locally run your own docker dashboard
+# Locally run your own K8s dashboard
 
 ## Prerrequisites
 
